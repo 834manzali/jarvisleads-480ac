@@ -1,0 +1,57 @@
+{
+  "name": "jarvis-leads",
+  "version": "1.0.0",
+  "description": "Современное AI-приложение для генерации лидов с премиальным дизайном",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "DISABLE_SUPABASE=true FRONTEND_ONLY=true tsc --noEmit --skipLibCheck && vite build",
+    "preview": "vite preview",
+    "vercel-build": "DISABLE_SUPABASE=true FRONTEND_ONLY=true NO_SUPABASE=true npm run build",
+    "vercel-ignore-check": "node vercel-ignore-check.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "motion": "^10.18.0",
+    "lucide-react": "^0.263.1",
+    "sonner": "^2.0.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-progress": "^1.0.3",
+    "@radix-ui/react-select": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "@tailwindcss/vite": "^4.0.0-alpha.26",
+    "tailwindcss": "^4.0.0-alpha.26"
+  },
+  "keywords": [
+    "leads",
+    "ai",
+    "react",
+    "typescript",
+    "tailwind",
+    "jarvis",
+    "crm"
+  ],
+  "author": "Jarvis Leads Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/834manzali/Jarvis-Leads3.git"
+  },
+  "homepage": "https://github.com/834manzali/Jarvis-Leads3#readme"
+}
